@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f192a">
+  <meta name="description" content="Contact Arixova Tech to discuss website development, digital tools, AI integration, workflow automation or strategy.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Book a Consultation | Arixova Tech Ltd">
+  <meta property="og:description" content="Contact Arixova Tech to discuss website development, digital tools, AI integration, workflow automation or strategy.">
+  <title>Book a Consultation | Arixova Tech Ltd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/site.css?v=2">
+</head>
+<body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand brand-wordmark" href="/" aria-label="Arixova Tech home"><img src="/assets/arixova-logo.png?v=2" alt="Arixova Tech"></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="sr-only">Open navigation</span><span class="menu-lines"></span>
+        </button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link " href="/">Home</a>
+          <div class="nav-group">
+            <a class="nav-link " href="/services/">Services</a>
+            <div class="nav-dropdown"><a href="/services/web-development/">Website Development</a><a href="/services/website-management/">Website Management</a><a href="/services/custom-tools/">Custom Tools</a><a href="/services/ai-integration/">AI Integration</a><a href="/services/workflow-automation/">Workflow Automation</a><a href="/services/digital-strategy/">Digital Strategy</a></div>
+          </div>
+          <a class="nav-link " href="/about/">About</a>
+          <a class="nav-link is-current" href="/contact/">Contact</a>
+          <a class="button button-small button-blue nav-cta" href="/contact/">Book a consultation <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </nav>
+      </div>
+    </header>
+<main id="main">
+    <section class="page-hero contact-hero"><div class="container contact-heading"><div><p class="eyebrow">Get in touch</p><h1>Start a<br><span class="text-muted">conversation.</span></h1><p class="page-lead">Tell us a little about your business and what you’d like to change. We’ll take it from there.</p><a class="contact-email" href="mailto:hello@arixova.tech">hello@arixova.tech</a></div><div class="contact-aside"><span class="aside-icon">↗</span><p>No jargon. No pressure.<br>Just a useful first conversation.</p></div></div></section>
+    <section class="contact-form-section section-pad"><div class="container contact-grid"><div class="form-intro"><p class="eyebrow">Your enquiry</p><h2>What can we<br>help with?</h2><p>Share as much or as little as you like. Please avoid including passwords, payment details or other sensitive information.</p><div class="form-note"><span class="note-line"></span><span>Your details are used to respond to this enquiry.</span></div></div>
+      <form class="enquiry-form" id="enquiry-form" novalidate>
+        <div class="field-row"><label>Full name <span>*</span><input name="name" autocomplete="name" required maxlength="100" placeholder="Your name"></label><label>Work email <span>*</span><input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@company.com"></label></div>
+        <div class="field-row"><label>Company <small>(optional)</small><input name="company" autocomplete="organization" maxlength="120" placeholder="Company name"></label><label>Service of interest<select name="service"><option value="">Not sure yet — let’s discuss</option><option value="web-development">Website Development</option><option value="website-management">Website Management</option><option value="custom-tools">Custom Tools</option><option value="ai-integration">AI Integration</option><option value="workflow-automation">Workflow Automation</option><option value="digital-strategy">Digital Strategy</option></select></label></div>
+        <label>Your message <span>*</span><textarea name="message" rows="5" required minlength="10" maxlength="5000" placeholder="What are you looking to improve?"></textarea></label>
+        <label class="honeypot" aria-hidden="true">Leave this field empty<input name="website" tabindex="-1" autocomplete="off"></label>
+        <label class="consent-label"><input name="consent" type="checkbox" required><span>I have read the <a href="/privacy/">privacy notice</a> and understand my details will be used to respond to this enquiry.</span></label>
+        <p class="form-status" id="form-status" aria-live="polite"></p>
+        <button class="button button-blue form-submit" type="submit">Send enquiry <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-fallback">If the form is unavailable, email <a href="mailto:hello@arixova.tech">hello@arixova.tech</a>.</p>
+      </form></div></section>
+      <section class="contact-next section-pad"><div class="container"><p class="eyebrow">What happens next</p><div class="next-steps"><article><span>01</span><h3>We read your note</h3><p>Your enquiry is reviewed by the team.</p></article><article><span>02</span><h3>We get in touch</h3><p>We’ll follow up to understand the context and answer your questions.</p></article><article><span>03</span><h3>We agree a way forward</h3><p>If it makes sense to proceed, we’ll discuss scope, timing and costs before work begins.</p></article></div></div></section></main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand brand-light" href="/" aria-label="Arixova Tech home"><span class="brand-mark"><span>A</span><i>T</i></span><span class="brand-name">arixova<span>tech</span></span></a>
+          <p>Thoughtful technology for the way your business works.</p>
+          <a class="footer-email" href="mailto:hello@arixova.tech">hello@arixova.tech</a>
+        </div>
+        <div class="footer-links"><h2>Explore</h2><a href="/about/">About us</a><a href="/services/">Services</a><a href="/contact/">Contact</a></div>
+        <div class="footer-links"><h2>Services</h2><a href="/services/web-development/">Website Development</a><a href="/services/website-management/">Website Management</a><a href="/services/custom-tools/">Custom Tools</a><a href="/services/ai-integration/">AI Integration</a><a href="/services/workflow-automation/">Workflow Automation</a><a href="/services/digital-strategy/">Digital Strategy</a></div>
+      </div>
+      <div class="container footer-bottom"><span>© <span data-year>2026</span> Arixova Tech Ltd</span><div><a href="/privacy/">Privacy</a><a href="/cookies/">Cookies</a></div><span>Built around outcomes.</span></div>
+    </footer>
+    <script src="/site.js" defer></script>
+</body>
+</html>
